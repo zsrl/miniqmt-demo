@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "miniqmt-demo"
+version = "0.1.0"
+description = ""
+authors = ["pluto <mayuanchi1029@gmail.com>"]
+readme = "README.md"
+packages = [{include = "miniqmt_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+notebook = "^6.5.4"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
